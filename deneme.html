@@ -11,15 +11,30 @@
       background-color: lightgreen;
       text-align: center;
     }
+    button{
+      background-color: lightgrey;
+      padding: 2px 4px;
+      margin: 1px 0;
+      cursor: pointer;
+      width: %20;
+    }
+    button:hover {
+  opacity: 0.8;
+        }
     </style>
   </head>
     <body>
-    <h1>
-      Welcome to My Web Page!
-    </h1>
-      <form>
-        <input type="text" placeholder="Name" name="name">
-        <button>Click!</button>
-      </form>
+    <h1>Welcome to My Web Page!</h1>
+    <h2>Login Form</h2>
+<form action="/action_page.php">
+    <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+  </div>
     </body>
   </html>
