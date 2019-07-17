@@ -2,6 +2,26 @@
 <html>
   <head>
     <style>
+        a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
     body {
       background-color: lightblue;
       font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +34,7 @@
       text-align: center;
     }
     button{
-      background-color: black;
+      background-color: lightblue;
       color:grey;
       padding: 2px 4px;
       margin: 1px 0;
@@ -30,18 +50,17 @@
     </style>
   </head>
     <body>
-    <h1>Welcome to My Web Page!</h1>
-    <h2>Login Form</h2>
-<form action="/action_page.php">
-    <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
-  </div>
-</form>
+      <a href="https://www.welcometomywebpage.com"></a>
+      <h1>Welcome to My Web Page!</h1>
+      <h2>Login Form</h2>
+        <form action="/action_page.php">
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit">Login</button>
+          </div>
+        </form>
     </body>
   </html>
